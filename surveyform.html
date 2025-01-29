@@ -1,0 +1,129 @@
+<html>
+    <head> <title>survey form</title>
+    <style>
+        body{
+          color: rgb(30, 233, 233);
+      background-color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large; 
+       text-align: center;}
+       form{
+        background-color: rgb(204, 49, 152);
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px 20px;
+        box-shadow: 2px 5px 10px rgba(0, 0green, 0blue, 0.5alpha);
+       }
+      .form-control{
+        text-align: center;
+        margin-bottom:25px;
+      }
+      .form-control label{
+        display: block;
+        margin-bottom: 10px;
+      }
+      .form-control input,.form-control select,.form-control textarea{
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-family: inherit;
+        padding: 10px;
+        display: block;
+        width: 95%;
+      }
+      button{
+        background-color: #05c46b;
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-family: inherit;
+        font-size: 21px;
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+      </style></head>
+    <body>
+        <h1>program for hw/survey form styling</h1>
+        <form>
+            <fieldset>
+                <legend>personal details:</legend>
+                <br>
+                <label for="a">name:</label>
+            <input type="text" id="a"> 
+            <br><br>
+            <label for="b">fname</label>
+            <input type="text" id="b">
+            <br><br>
+            <label for="c">mname</label>
+            <input type="text" id="c">
+            <br><br>
+            gender:
+            <br>
+            <input type="radio" id="d" name="gender">
+            <label for="d">male</label>
+            <input type="radio" id="e" name="gender">
+            <label for="e">female</label>
+            <input type="radio" id="f" name="gender">
+            <label for="g">other</label>
+            <br><br>
+            <label for="h">address</label>
+            <textarea rows="3" cols="40"></textarea>
+            <br><br>
+            <label for="i">pan.no</label>
+            <input type="text" id="i">
+            <br><br>
+            <h3>educational details:</h3>
+            <br>
+            <label for="j">class 10th:</label>
+             <label for="k">year of passed out</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="k" id="k">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+            </select>
+            <label for="l">percentage of marks</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" id="l">
+            <label for="m">school</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="m"><br><BR>
+            <label for="n">board of intermediate:</label>
+            <label for="o">year of passed out</label>&nbsp;
+            <select name="o" id="o">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+            </select>
+            <label for="p">percentage of marks</label>
+            <input type="number" id="p">
+            <label for="q">college</label>
+            <input type="text" id="q"><br><BR>
+                <label for="r">degree:</label>
+                <label for="s">uni</label>
+                <select name="t" id="t">
+                    <option>osmania</option>
+                    <option>jntu</option>
+                </select>
+            <label for="u">year of pass out</label>
+                <select name="u" id="u">
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    
+                </select>
+                <br>
+                <br>
+                <h3>experience details:</h3>
+                <br>
+                <label for="v">company name:</label>
+                <input type="text" id="v">
+                <label for="w">joining date</label>
+                <input type="date" id="w">
+                <label for="x">till date</label>
+                <input type="date" id="x">    
+            </fieldset>
+        </form>
+    </body>
+</html>
